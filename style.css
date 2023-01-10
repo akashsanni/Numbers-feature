@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    background-color: rgba(211, 211, 211, 0.279);
+}
+
+#main-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-auto-rows: 25vh;
+    gap: 1em;
+    padding: 3rem;
+    justify-content: center;
+    align-content:center;
+    /* border: 4px solid orange; */
+}
+
+.boxes{
+   
+    
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(73, 73, 73, 0.089);
+    
+}
+
+h1{
+    font-size: 4.7rem;
+    margin-left: 15px;
+    padding-top: 10px;
+
+}
+
+p{
+    
+    font-size: 1.8rem;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+#succeeded-projects{
+   
+
+    border-bottom: 4px solid orange;
+}
+
+#working-hours-spent{
+    
+    border-bottom: 4px solid skyblue;
+}
+
+#happy-clients{
+    
+
+    border-bottom: 4px solid purple;
+}
+
